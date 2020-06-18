@@ -24,7 +24,7 @@ public class autoTwo {
 	  	driver.get("http://demo.guru99.com/test/guru99home/");  
 		String title = driver.getTitle();	
 		System.out.println(title);
-		AssertJUnit.assertTrue(title.contains("Demo Guru99 Page")); 		
+		AssertJUnit.assertTrue(title.contains("Demo Guru99 Page1")); 		
 	  /*
 	  System.setProperty("webdriver.chrome.driver","/Users/seanxu/eclipse-workspace/chromedriver");
 	  WebDriver driver = new ChromeDriver();
