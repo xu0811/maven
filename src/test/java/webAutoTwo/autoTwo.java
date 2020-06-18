@@ -27,7 +27,7 @@ public class autoTwo {
       
       //Thread.sleep(5000); //wait 5 sec
       
-      String expectedTitle = "Welcome: Mercury Tours";
+      String expectedTitle = "Welcome: Mercury Tours1";
       String actualTitle = "";
       // get the actual value of the title
       actualTitle = driver.getTitle();
